@@ -1,0 +1,48 @@
+html {
+  width: 400px;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+header {
+  /* width: 250px; */
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+
+header .yamada_nyanta {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header p {
+  margin: 0px;
+}
+
+body div .skills {
+  background-color: rgb(168, 164, 164);
+}
+
+body div .skills h2 {
+  text-align: center;
+}
+
+body div .skills ul {
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+}
+
+div .works {
+  margin-right: auto;
+  margin-left: auto;
+}
