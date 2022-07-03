@@ -54,3 +54,19 @@ header nav ul li a:active,
 header nav ul li.current a {
   color: #8c6239
 }
+
+#main_image {
+  width: 100%;
+  height: 50vh;
+  background-image: url(https://via.placeholder.com/3000X2500);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* contents */
+.contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
