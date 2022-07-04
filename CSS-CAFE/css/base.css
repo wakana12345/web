@@ -70,3 +70,100 @@ header nav ul li.current a {
   justify-content: space-between;
   margin-top: 30px;
 }
+
+#main_content {
+  width: 65%;
+}
+
+#sidebar {
+  width: 31%;
+}
+
+#home h2 {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #8c6239;
+  font-size: 1.2rem;
+}
+
+#info dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#info dt {
+  width: 7em;
+}
+
+#info dd {
+  width: calc(100% - 7em);
+}
+
+#campain ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+#sidebar ul li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #a67c52;
+  text-align: center;
+  color: #fff;
+}
+
+footer ul {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:link {
+  text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+  opacity: .7;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+/* responsive */
+
+@media(max-width: 600px)
+{
+  html {
+    font-size: 87.5%;
+  }
+
+  .header_log {
+    width: 60px;
+  }
+
+  .contents {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  #main_contents,
+  #sidebar {
+    width: 100%;
+  }
+}
